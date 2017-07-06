@@ -1,0 +1,171 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto:100,400,500,700,900');
+
+body{
+  margin:0;
+}
+
+.wrapper{
+   max-width: 1200px;
+   margin: 0 auto;
+}
+header{
+   border-top:20px solid;
+   border-color:#04e4a2;
+   background-color:#e94643;
+   padding:35px 0 25px;
+   overflow:hidden;
+   
+}
+
+.logo,nav{
+	display:inline-block;
+}
+
+.logo{
+   padding-left:140px; 
+}
+
+nav{
+    float: right;
+	
+}
+
+a{
+    text-decoration:none;
+    color:#ffffff;
+	font-family:Roboto;
+	font-size:23px;
+	border-bottom:2px solid;
+	border-bottom-color:#fdd835;
+	margin-left:20px;
+}    
+
+article{
+    padding-top:56px; /*0 0 120px;*/ 
+	background:linear-gradient(to bottom, #ef5350 55%, #ffffff 45%);
+   /* display:flex;
+    justify-content:space-around;*/
+ 
+}
+.right,.left {
+    display:inline-block;
+    vertical-align: top;
+}
+
+.left{
+	padding:0 80px 0 30px;
+  	
+	
+}
+
+
+.myfoto{
+  position:relative;
+  bottom:720px;
+  left:64px;
+  margin-bottom:-720px;
+  
+  
+}
+	
+ 
+ 
+.text{
+   color:#ffffff;
+   padding-top:120px;
+   font-family: Roboto;
+   }
+h1{
+  font-size:30px;
+  text-transform:uppercase;
+  letter-spacing:3px;
+}
+.text{
+  overflow:hidden;
+  padding-bottom:100px;
+  /*background-color:#ef5350;*/
+}
+.text p{
+  /* font-size:20px; */
+  font-family: Roboto;
+  white-space:pre;
+  letter-spacing:1px;
+  font-weight:100;
+ }
+
+.button1{
+  float:right;  
+  background:#04e4a2;
+  color:#ffffff;
+  width:108px;
+  height:40px;
+  border:0,5px solid;
+  border-color:04e4a2;
+  border-radius:6px;
+}
+
+.forms{
+  overflow:hidden;
+  font-family:Roboto;
+ /* background-color:#ffffff;*/
+}
+.forms p{
+  color:#ef5350;
+  font-size:20px;
+}
+.form{
+   width:218px;
+   height:38px;
+   margin-top:5px;
+   border:0,5px solid;
+   border-color:#69f0ae;
+   border-radius:3px;
+   padding-left:20px;
+ }
+.query{
+   width:462px;
+   height:98px;
+   padding-left:20px;
+   border:0,5px solid;
+   border-color:#69f0ae;
+   border-radius:3px;
+}
+.button2{
+   float:right; 
+   background:#ef5350;
+   color:#ffffff;
+   width:108px;
+   height:40px;
+   border:0,5px solid;
+   border-color:#ef5350;
+   border-radius:6px;
+   
+}
+footer{
+   background-color:#fefcf2;
+   color:#636363;
+   vertical-align:baseline;
+   padding:20px 0 30px 0;
+   font-family:Roboto;
+   font-size:20px;
+} 
+.copy{
+   float:left;
+}
+.email{
+   margin-left:670px;
+   
+}
+
+.email a{
+	text-decoration:none;
+	color:#636363;
+	font-family:Roboto;
+	font-size:20px;
+	border-bottom:none;
+	
+}
+/* .imgfooter {
+	padding-top:2px;
+} */
+   
